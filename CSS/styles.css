@@ -1,0 +1,26 @@
+:root {
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 250ms;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.value {
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.label {
+  font-size: 18px;
+  line-height: 1.5;
+}
